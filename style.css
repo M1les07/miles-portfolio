@@ -970,3 +970,14 @@ body::-webkit-scrollbar {
     max-width: 320px;
   }
 }
+
+/* Add this inside your responsive/mobile media query */
+@media (max-width: 768px) {
+  .projects-box,
+  .achievement-box {
+    margin: 0 auto; /* Center horizontally */
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Optional: limit max width */
+    display: block;
+  }
+        }
