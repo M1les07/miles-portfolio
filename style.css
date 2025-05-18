@@ -945,3 +945,28 @@ body {
 body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
+
+@media screen and (max-width: 768px) {
+  .section-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .projects-container,
+  .achievements-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .project,
+  .achievement {
+    width: 100%;
+    max-width: 320px;
+  }
+}
